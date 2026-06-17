@@ -1,0 +1,46 @@
+/*selector universal*/
+
+*{
+  margin: 10;
+  padding: 5;
+  box-sizing: border-box;
+
+
+}
+
+/*selector tipo*/
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: blueviolet;
+  padding-top: 80px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+/*selector clase*/
+
+.nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 15px 40px;
+  color: blueviolet;
+  background-color: #6EADBC;
+  box-shadow: 0 4px 10px rgb(0, 0, 0, 1);
+  z-index: 1000;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+}
+
+/*selector id*/
+
+#titulo{
+  margin-top: 40px;
+  color: red;
+  text-align: center;
+}
