@@ -20,22 +20,86 @@ body{
 
 /*selector clase*/
 
+.logo{
+  color: chocolate;
+  font-size: 3rem;
+  font-weight: bolder;
+
+}
+
 .nav{
   position: fixed;
   top: 0;
   right: 0;
   width: 100%;
-  padding: 15px 40px;
-  color: blueviolet;
   background-color: #6EADBC;
   box-shadow: 0 4px 10px rgb(0, 0, 0, 1);
   z-index: 1000;
-  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 40px;
 }
+
+.nav > a{
+  color: blueviolet; 
+  font-size: 40px;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.nav > a:hover{
+  color: blanchedalmond;
+  transition: color 0.3s ease;
+}
+
+.contendor_principal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  padding: 0 40px;
+}
+
+.tarjeta{
+  background-color: antiquewhite;
+  width: 400px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px red;
+}
+
+.tarjeta > h2{
+  margin-bottom: 15px;
+  color: black;
+  text-align: center;
+}
+
+.tarjeta > p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: blue;
+  text-align: center;
+}
+
+.tarjeta:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px blue;
+}
+
+.boton{
+  justify-content: center;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.boton:hover{
+  background-color: grey;
+}
+
 
 /*selector id*/
 
@@ -44,3 +108,4 @@ body{
   color: red;
   text-align: center;
 }
+
