@@ -4,8 +4,6 @@
   margin: 10;
   padding: 5;
   box-sizing: border-box;
-
-
 }
 
 /*selector tipo*/
@@ -99,7 +97,6 @@ body{
 .boton:hover{
   background-color: grey;
 }
-
 
 /*selector id*/
 
